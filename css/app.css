@@ -1,3 +1,38 @@
 body {
-	background: #224558;
+	background: #ECF0F1;
+}
+.container {
+	margin: 0 auto;
+	max-width: 920px;
+}
+.header {
+	text-align: center;
+}
+.header .header-logo {
+	display: block;
+	margin: 0 auto;
+	width: 20%;
+}
+.header .header-img {
+	width: 50%;
+    border-radius: 35%;
+}
+.card {
+	width: 190px;
+	display: inline-block;
+	border-radius: 12px;
+	background: #E74C3C;
+	padding: 8px;
+	color: white;
+	margin: 10px;
+	vertical-align: middle;
+}
+.card-img {
+	width: 100%;
+	border-radius: 8px 8px 0 0;
+}
+.card-name {
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
 }
